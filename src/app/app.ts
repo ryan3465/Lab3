@@ -9,9 +9,12 @@ import { B } from './b/b';
   selector: 'app-root',
   //add the imports to the component
   imports: [RouterOutlet, A, B],
+  //main component visual
   templateUrl: './app.html',
+  //url-link
   styleUrl: './app.css'
 })
+  //Buisness logic goes here -
 export class App {
   protected readonly title = signal('my-first-app');
   //declare variables 
